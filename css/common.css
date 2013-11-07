@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,p,h1,h2,h3,h4,h5,h6,input,tr,td,table,figure,mark,button{
+     padding: 0;
+     margin: 0;
+}
+body{
+     font: 12px/20px "simsun","宋体","Arial","Helvetica","sans-serif";
+     color: #333;
+}
+h1,h2,h3,h4,h5,h6{
+     font-size: 14px;
+}
+fieldset, img{
+     border: none;
+}
+img{
+     display: block;
+     border: 0;
+}
+em, i{
+     font-style: normal;
+}
+s, strike, del{
+     text-decoration: none;
+}
+table{
+     width: 100%;
+     border: 0;
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+a{
+     color: #666;
+     outline: none;
+     text-decoration: none;
+}
+ul, li{
+     list-style-type: none;
+}
+.clear{
+     clear: both;
+}
+.clearfix:after{
+	clear: both;
+	display: table;
+	content: "";
+}
+.clearfix{
+	zoom:1;
+}
+
+/* layout */
+.w{
+     width: 980px;
+     margin: 0 auto;
+}
+
+/* header */
+.header{
+     height: 60px;
+     border-bottom: 1px solid #ccc;
+     background-color: #f8f8f8;
+}
+.h_bd{
+    
+}
+.h_logo{
+     float: left;
+     width: 146px;
+     height: 46px;
+     margin: 11px 0 0;
+     display: block;
+     background: url("../images/logo.png") no-repeat 0 0;
+     text-indent: -9999px;
+}
+.h_nav{
+     float: left;
+     margin: 0 0 0 40px;
+     display: inline;
+}
+.h_nav li{
+     float: left;
+     margin: 0 1px;
+}
+.h_nav li a{
+     float: left;
+     height: 58px;
+     line-height: 58px;
+     padding: 2px 23px 0;
+     font-size: 14px;
+     font-weight: bold;
+     color: #666;
+}
+.h_nav a:hover, 
+.h_nav .curr a{
+     height: 55px;
+     border-bottom: 3px solid #8cc540;
+     background-color: #efefef;
+     color: #333;
+}
